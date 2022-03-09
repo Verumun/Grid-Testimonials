@@ -18,13 +18,11 @@ body {
   min-height: 100vh;
   font-size: 1.3rem;
   font-family: "Barlow Semi Condensed", sans-serif;
-
 }
 
 main {
   padding: 2.5rem;
 }
-
 
 // General Card Styling (NESTED)
 .card {
@@ -110,10 +108,15 @@ main {
 }
 
 // footer styling
-footer{
+footer {
   // footer styling
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
   font-size: 1.5rem;
 }
 
@@ -148,7 +151,6 @@ footer{
     grid-column: 2/4;
   }
 }
-
 
 @media screen and (min-width: 1024px) {
   main {
